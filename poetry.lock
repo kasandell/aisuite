@@ -144,15 +144,15 @@ files = [
 
 [[package]]
 name = "anthropic"
-version = "0.39.0"
+version = "0.45.2"
 description = "The official Python library for the anthropic API"
 optional = false
 python-versions = ">=3.8"
 groups = ["main", "dev"]
 markers = "python_version >= \"3.12\" or python_version <= \"3.11\""
 files = [
-    {file = "anthropic-0.39.0-py3-none-any.whl", hash = "sha256:ea17093ae0ce0e1768b0c46501d6086b5bcd74ff39d68cd2d6396374e9de7c09"},
-    {file = "anthropic-0.39.0.tar.gz", hash = "sha256:94671cc80765f9ce693f76d63a97ee9bef4c2d6063c044e983d21a2e262f63ba"},
+    {file = "anthropic-0.45.2-py3-none-any.whl", hash = "sha256:ecd746f7274451dfcb7e1180571ead624c7e1195d1d46cb7c70143d2aedb4d35"},
+    {file = "anthropic-0.45.2.tar.gz", hash = "sha256:32a18b9ecd12c91b2be4cae6ca2ab46a06937b5aa01b21308d97a6d29794fb5e"},
 ]
 
 [package.dependencies]
@@ -162,7 +162,7 @@ httpx = ">=0.23.0,<1"
 jiter = ">=0.4.0,<1"
 pydantic = ">=1.9.0,<3"
 sniffio = "*"
-typing-extensions = ">=4.7,<5"
+typing-extensions = ">=4.10,<5"
 
 [package.extras]
 bedrock = ["boto3 (>=1.28.57)", "botocore (>=1.31.57)"]
@@ -7512,4 +7512,4 @@ watsonx = ["ibm-watsonx-ai"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "9a0adfa73ce50172e7353c0e1bed5b126402eec6cda270b9fd4c29060f13d862"
+content-hash = "1f148cab592f963790d72de1a7d49c8306c9f9f25c62704f62fe4f835568eeab"
